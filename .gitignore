@@ -1,0 +1,21 @@
+﻿# Environment variables
+.env
+backend/.env
+
+# Virtual environment
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ML model files
+*.pkl
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
