@@ -1,67 +1,43 @@
 import pickle
 import pandas as pd
 import os
+import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import classification_report
 from xgboost import XGBClassifier
 from app.core.preprocess import clean_text
 
 
 def train():
 
-    # =========================
-    # 1. PATH SETUP
-    # =========================
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     csv_path = os.path.join(BASE_DIR, "training_data.csv")
 
     print("📁 CSV Path:", csv_path)
 
-    if not os.path.exists(csv_path):
-        raise FileNotFoundError(f"CSV not found: {csv_path}")
-
-    # =========================
-    # 2. LOAD DATA
-    # =========================
     df = pd.read_csv(csv_path)
-
-    # Clean column names
     df.columns = df.columns.str.strip().str.lower()
 
-    print("📊 Columns:", df.columns.tolist())
-
     # =========================
-    # 3. VALIDATE REQUIRED COLUMNS
+    # LABEL ENCODING
     # =========================
-    required_cols = ["message", "interest_level", "genuine_customer"]
-
-    for col in required_cols:
-        if col not in df.columns:
-            raise KeyError(f"Missing column: {col}")
-
-    # =========================
-    # 4. LABEL ENCODING (FIX FOR ERROR)
-    # =========================
-
-    # interest_level: high / medium / low → 0/1/2
     le_interest = LabelEncoder()
     df["interest_level"] = le_interest.fit_transform(df["interest_level"].astype(str))
 
-    # genuine_customer: ensure numeric
-    if df["genuine_customer"].dtype == "object":
-        df["genuine_customer"] = df["genuine_customer"].astype(str).str.lower().map({
-            "true": 1,
-            "false": 0,
-            "yes": 1,
-            "no": 0
-        })
-
-    df["genuine_customer"] = df["genuine_customer"].astype(int)
+    df["genuine_customer"] = (
+        df["genuine_customer"]
+        .astype(str)
+        .str.lower()
+        .map({"true": 1, "false": 0, "yes": 1, "no": 0})
+        .fillna(0)
+        .astype(int)
+    )
 
     # =========================
-    # 5. TEXT PREPROCESSING
+    # TEXT CLEANING
     # =========================
     df["clean_message"] = df["message"].astype(str).apply(clean_text)
 
@@ -70,56 +46,94 @@ def train():
     y_genuine = df["genuine_customer"]
 
     # =========================
-    # 6. TF-IDF VECTOR
+    # STRATIFIED SPLIT (IMPORTANT FIX)
     # =========================
-    vectorizer = TfidfVectorizer(max_features=5000)
-    X_vec = vectorizer.fit_transform(X)
-
-    # =========================
-    # 7. TRAIN TEST SPLIT
-    # =========================
-    X_train, X_test, y_train_i, y_test_i, y_train_g, y_test_g = train_test_split(
-        X_vec,
+    X_train_text, X_test_text, y_train_i, y_test_i, y_train_g, y_test_g = train_test_split(
+        X,
         y_interest,
         y_genuine,
-        test_size=0.2,
-        random_state=42
+        test_size=0.25,
+        random_state=42,
+        stratify=y_interest
     )
 
     # =========================
-    # 8. MODELS
+    # TF-IDF (REDUCED POWER = LESS OVERFITTING)
+    # =========================
+    vectorizer = TfidfVectorizer(
+        max_features=1000,   # reduced further
+        ngram_range=(1, 1),  # REMOVE bigram memory
+        min_df=5             # ignore rare words
+    )
+
+    X_train = vectorizer.fit_transform(X_train_text)
+    X_test = vectorizer.transform(X_test_text)
+
+    # =========================
+    # STRONGER REGULARIZATION
     # =========================
     model_interest = XGBClassifier(
-        eval_metric="logloss",
+        max_depth=3,
+        n_estimators=60,
+        learning_rate=0.05,
+        subsample=0.7,
+        colsample_bytree=0.7,
+        reg_lambda=2,
+        reg_alpha=1,
+        eval_metric="mlogloss",
         random_state=42
     )
-    model_interest.fit(X_train, y_train_i)
 
     model_genuine = XGBClassifier(
+        max_depth=3,
+        n_estimators=60,
+        learning_rate=0.05,
+        subsample=0.7,
+        colsample_bytree=0.7,
+        reg_lambda=2,
+        reg_alpha=1,
         eval_metric="logloss",
         random_state=42
     )
+
+    model_interest.fit(X_train, y_train_i)
     model_genuine.fit(X_train, y_train_g)
 
     # =========================
-    # 9. SAVE ARTIFACTS
+    # EVALUATION
+    # =========================
+    print("\n==============================")
+    print("📊 INTEREST MODEL REPORT")
+    print("==============================")
+
+    print(classification_report(
+        y_test_i,
+        model_interest.predict(X_test),
+        digits=3
+    ))
+
+    print("\n==============================")
+    print("📊 GENUINE MODEL REPORT")
+    print("==============================")
+
+    print(classification_report(
+        y_test_g,
+        model_genuine.predict(X_test),
+        digits=3
+    ))
+
+    # =========================
+    # SAVE
     # =========================
     artifacts_path = os.path.join(BASE_DIR, "artifacts")
     os.makedirs(artifacts_path, exist_ok=True)
 
-    with open(os.path.join(artifacts_path, "xgboost_interest.pkl"), "wb") as f:
-        pickle.dump(model_interest, f)
+    pickle.dump(model_interest, open(os.path.join(artifacts_path, "interest.pkl"), "wb"))
+    pickle.dump(model_genuine, open(os.path.join(artifacts_path, "genuine.pkl"), "wb"))
+    pickle.dump(vectorizer, open(os.path.join(artifacts_path, "vectorizer.pkl"), "wb"))
+    pickle.dump(le_interest, open(os.path.join(artifacts_path, "label_encoder.pkl"), "wb"))
 
-    with open(os.path.join(artifacts_path, "xgboost_genuine.pkl"), "wb") as f:
-        pickle.dump(model_genuine, f)
-
-    with open(os.path.join(artifacts_path, "tfidf_vectorizer.pkl"), "wb") as f:
-        pickle.dump(vectorizer, f)
-
-    with open(os.path.join(artifacts_path, "label_encoder.pkl"), "wb") as f:
-        pickle.dump(le_interest, f)
-
-    print("✅ Training complete. Models saved successfully!")
+    print("\n✅ Training completed!")
 
 
 if __name__ == "__main__":
