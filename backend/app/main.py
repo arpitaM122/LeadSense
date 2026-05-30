@@ -1,10 +1,15 @@
 from fastapi import FastAPI
-from app.api import webhook, callbacks, internal
-from app.models.database import Base, engine
+from .api import webhook, callbacks, internal
+from .models.database import Base, engine
 
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Lead Intelligence API")
+
+#  ADD THIS LINE
+@app.get("/")
+def root():
+    return {"message": "Lead Intelligence API is running", "status": "ok"}
 
 app.include_router(webhook.router, prefix="/api/v1")
 app.include_router(callbacks.router, prefix="/api/v1")

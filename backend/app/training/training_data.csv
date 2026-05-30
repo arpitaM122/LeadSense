@@ -1,0 +1,501 @@
+customer_id,name,phone,email,message,source,response_time_minutes,interaction_count,sentiment_score,interest_level,spam_flag,genuine_customer,purchased
+CUST0001,Pooja Nair,+917107420369,pooja.nair760@outlook.com,Stop wasting my time.,whatsapp,29,3,0.15,low,1,0,0
+CUST0002,Tarun Ghosh,+917373399426,tarun.ghosh605@hotmail.com,I want to start immediately. What do I need to do?,whatsapp,4,2,0.88,high,0,1,1
+CUST0003,Tarun Ghosh,+918801823908,tarun.ghosh226@hotmail.com,I'd like to buy the premium plan. How do I sign up?,sms,104,14,0.91,high,0,1,1
+CUST0004,Neha Joshi,+917924765563,neha.joshi981@outlook.com,Please send me the contract. I want to finalize this.,whatsapp,12,7,0.88,high,0,1,1
+CUST0005,Lakshmi Krishnan,+919303082117,lakshmi.krishnan128@hotmail.com,Good product but not for us right now.,whatsapp,71,5,0.57,low,0,1,0
+CUST0006,Meera Iyer,+919479708607,meera.iyer197@gmail.com,Remove me from your list immediately.,whatsapp,85,4,0.17,low,1,0,0
+CUST0007,Vikram Mehta,+918632629719,vikram.mehta285@hotmail.com,We might need this. Let me check with management.,sms,21,6,0.48,medium,0,1,1
+CUST0008,Ravi Verma,+919616197747,ravi.verma651@yahoo.com,We're evaluating tools. Can you send a brochure?,whatsapp,21,8,0.59,medium,0,1,0
+CUST0009,Aakash Malhotra,+917240251661,aakash.malhotra235@gmail.com,My company needs this. Can you send a proposal?,sms,52,5,0.96,high,0,1,1
+CUST0010,Nisha Bhatt,+918699226064,nisha.bhatt906@hotmail.com,I'm happy with the features. Let's proceed with purchase.,whatsapp,34,3,0.86,high,0,1,1
+CUST0011,Swati Nanda,+919506254832,swati.nanda409@outlook.com,I'll think about it. Can you follow up next month?,whatsapp,18,9,0.41,medium,0,1,0
+CUST0012,Arjun Das,+919922644564,arjun.das433@gmail.com,Thanks but we handle this in-house.,sms,49,10,0.38,low,0,1,0
+CUST0013,Pallavi Jain,+917049310608,pallavi.jain697@gmail.com,What features do you offer? I'm evaluating options.,sms,99,11,0.53,medium,0,1,0
+CUST0014,Deepak Mishra,+919150000991,deepak.mishra781@yahoo.com,I want to start immediately. What do I need to do?,whatsapp,112,11,0.88,high,0,1,0
+CUST0015,Arjun Das,+919316615266,arjun.das977@gmail.com,Please send me the contract. I want to finalize this.,sms,63,1,0.96,high,0,1,1
+CUST0016,Sunita Choudhary,+918028439863,sunita.choudhary60@yahoo.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,11,12,0.69,medium,0,1,0
+CUST0017,Suresh Reddy,+917551437149,suresh.reddy676@hotmail.com,Appreciate the outreach but we're good for now.,whatsapp,34,9,0.59,low,0,1,0
+CUST0018,Tarun Ghosh,+919962958940,tarun.ghosh206@outlook.com,We're evaluating tools. Can you send a brochure?,sms,86,11,0.56,medium,0,1,0
+CUST0019,Manish Tiwari,+917274989148,manish.tiwari347@gmail.com,I want to purchase your service. How do I proceed?,whatsapp,76,4,0.77,high,0,1,1
+CUST0020,Ritika Saxena,+917304330003,ritika.saxena527@yahoo.com,What are the payment options available?,sms,86,8,0.92,high,0,1,1
+CUST0021,Vivek Srivastava,+919030106617,vivek.srivastava249@hotmail.com,I want to upgrade my current plan. Please help.,sms,25,2,0.81,high,0,1,1
+CUST0022,Sneha Patel,+919892078691,sneha.patel670@gmail.com,Interesting product. What's the minimum contract?,whatsapp,52,12,0.43,medium,0,1,0
+CUST0023,Tarun Ghosh,+918926780541,tarun.ghosh144@hotmail.com,Please send me more information about your plans.,whatsapp,36,8,0.83,high,0,1,1
+CUST0024,Pallavi Jain,+917420514789,pallavi.jain52@gmail.com,We don't have budget this quarter. Try next year.,whatsapp,119,13,0.42,low,0,1,0
+CUST0025,Harsh Chauhan,+917918037633,harsh.chauhan886@hotmail.com,Is there a discount for annual subscription?,whatsapp,22,7,0.78,high,0,1,1
+CUST0026,Lakshmi Krishnan,+918225136114,lakshmi.krishnan434@hotmail.com,I want to purchase your service. How do I proceed?,whatsapp,25,5,0.87,high,0,1,1
+CUST0027,Aakash Malhotra,+917245522987,aakash.malhotra52@hotmail.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,8,9,0.72,high,0,1,0
+CUST0028,Sonia Kapoor,+918734202799,sonia.kapoor123@yahoo.com,Can I see a demo before deciding?,whatsapp,80,2,0.57,medium,0,1,0
+CUST0029,Deepak Mishra,+917877286584,deepak.mishra686@outlook.com,I want to place an order. Please share the details.,whatsapp,34,7,0.84,high,0,1,1
+CUST0030,Ravi Verma,+917040009587,ravi.verma470@gmail.com,What is this about? Just curious.,whatsapp,69,4,0.48,low,0,0,0
+CUST0031,Ravi Verma,+918049193572,ravi.verma379@outlook.com,Just exploring options. Not serious yet.,whatsapp,57,14,0.38,low,0,0,0
+CUST0032,Smita Desai,+917033599984,smita.desai684@outlook.com,I've been looking for this. Can we schedule a call?,whatsapp,113,3,0.92,high,0,1,0
+CUST0033,Nikhil Banerjee,+919597724331,nikhil.banerjee216@outlook.com,Thanks but we handle this in-house.,whatsapp,88,11,0.45,low,0,1,0
+CUST0034,Sneha Patel,+917396418889,sneha.patel650@hotmail.com,Can you help me understand the onboarding process?,sms,6,1,0.59,medium,0,1,0
+CUST0035,Vinay Dubey,+919369449369,vinay.dubey723@hotmail.com,We don't have budget this quarter. Try next year.,whatsapp,15,2,0.46,low,0,1,0
+CUST0036,Meera Iyer,+919501859536,meera.iyer566@yahoo.com,We're evaluating tools. Can you send a brochure?,sms,17,1,0.68,medium,0,1,1
+CUST0037,Amit Kumar,+918536778950,amit.kumar216@yahoo.com,Can I get this for free? I have no budget.,whatsapp,46,13,0.32,low,0,0,0
+CUST0038,Usha Tripathi,+917663801533,usha.tripathi948@yahoo.com,I want to upgrade my current plan. Please help.,whatsapp,103,13,0.71,high,0,1,1
+CUST0039,Ritika Saxena,+918768294570,ritika.saxena822@yahoo.com,How did you get my number? Remove it.,sms,21,13,0.17,low,1,0,0
+CUST0040,Harsh Chauhan,+917955345537,harsh.chauhan205@hotmail.com,This is spam. Unsubscribe me now.,sms,40,14,0.04,low,1,0,0
+CUST0041,Rohit Sinha,+918711398352,rohit.sinha337@outlook.com,What's your customer support like?,whatsapp,99,5,0.52,medium,0,1,1
+CUST0042,Tarun Ghosh,+918422277848,tarun.ghosh962@gmail.com,How soon can we get started? I'm ready to move forward.,whatsapp,113,5,0.71,high,0,1,1
+CUST0043,Gaurav Pandey,+918347233823,gaurav.pandey447@gmail.com,I want to purchase your service. How do I proceed?,sms,116,10,0.91,high,0,1,0
+CUST0044,Tarun Ghosh,+919950028965,tarun.ghosh737@yahoo.com,We just renewed our contract with another provider.,sms,56,2,0.49,low,0,1,0
+CUST0045,Pooja Nair,+918289874320,pooja.nair520@outlook.com,Not interested. Never contact me again.,sms,42,7,0.03,low,1,0,0
+CUST0046,Karan Bose,+919855850145,karan.bose963@hotmail.com,What's your customer support like?,whatsapp,79,10,0.65,medium,0,1,0
+CUST0047,Divya Rao,+918846355528,divya.rao805@outlook.com,Not interested. Never contact me again.,sms,57,8,0.09,low,1,0,0
+CUST0048,Arjun Das,+919829742424,arjun.das87@outlook.com,Our company already has a similar tool.,sms,12,14,0.5,low,0,1,0
+CUST0049,Manish Tiwari,+917855256552,manish.tiwari151@gmail.com,I'll decide later. Not in a hurry.,whatsapp,32,8,0.22,low,0,0,0
+CUST0050,Karan Bose,+919704821724,karan.bose590@yahoo.com,I'm very interested in your product. Can you share pricing?,sms,64,7,0.97,high,0,1,1
+CUST0051,Vikram Mehta,+918825989011,vikram.mehta225@yahoo.com,I've been looking for this. Can we schedule a call?,sms,7,9,0.84,high,0,1,1
+CUST0052,Smita Desai,+919400565848,smita.desai610@outlook.com,Not interested. Never contact me again.,sms,79,14,0.09,low,1,0,0
+CUST0053,Pallavi Jain,+918915184358,pallavi.jain919@yahoo.com,Unsubscribe. Now.,sms,58,5,0.13,low,1,0,0
+CUST0054,Smita Desai,+919081328344,smita.desai642@yahoo.com,This is spam. Unsubscribe me now.,sms,57,2,0.05,low,1,0,0
+CUST0055,Aakash Malhotra,+919319936135,aakash.malhotra83@yahoo.com,Do not contact me again.,whatsapp,30,7,0.04,low,1,0,0
+CUST0056,Karan Bose,+918750625978,karan.bose339@hotmail.com,Appreciate the outreach but we're good for now.,sms,8,4,0.57,low,0,1,0
+CUST0057,Rekha Naik,+919987248494,rekha.naik21@hotmail.com,Is there a discount for annual subscription?,sms,1,6,0.96,high,0,1,1
+CUST0058,Karan Bose,+919311639723,karan.bose766@yahoo.com,Can I get a trial before purchasing?,sms,29,5,0.52,medium,0,1,1
+CUST0059,Preeti Agarwal,+917708861714,preeti.agarwal861@hotmail.com,Is there a discount for annual subscription?,whatsapp,80,9,0.88,high,0,1,1
+CUST0060,Anita Gupta,+919760588734,anita.gupta439@yahoo.com,Ready to buy. Just need invoice details.,sms,24,1,0.76,high,0,1,1
+CUST0061,Sanjay Yadav,+918195103064,sanjay.yadav771@hotmail.com,Looks good. Can you share more details?,sms,107,2,0.56,medium,0,1,1
+CUST0062,Gaurav Pandey,+917963026855,gaurav.pandey666@gmail.com,Our company already has a similar tool.,whatsapp,97,1,0.55,low,0,1,0
+CUST0063,Usha Tripathi,+917654477195,usha.tripathi245@yahoo.com,I'm browsing around. Not looking to buy.,sms,86,2,0.34,low,0,0,0
+CUST0064,Deepak Mishra,+918584392711,deepak.mishra172@gmail.com,Is this free? I don't want to pay anything.,whatsapp,40,2,0.29,low,0,0,0
+CUST0065,Sanjay Yadav,+918703617827,sanjay.yadav965@yahoo.com,Our company already has a similar tool.,whatsapp,76,12,0.33,low,0,1,0
+CUST0066,Sunita Choudhary,+919938870196,sunita.choudhary615@gmail.com,Can you share your case studies?,whatsapp,45,9,0.42,medium,0,1,1
+CUST0067,Rahul Sharma,+918804138557,rahul.sharma843@hotmail.com,Can I get this for free? I have no budget.,whatsapp,56,6,0.34,low,0,0,0
+CUST0068,Neha Joshi,+918870403050,neha.joshi181@outlook.com,Good product but not for us right now.,sms,60,7,0.38,low,0,1,0
+CUST0069,Sonia Kapoor,+917372214308,sonia.kapoor286@hotmail.com,Not sure if I need this. Just checking.,whatsapp,97,8,0.31,low,0,0,0
+CUST0070,Priya Singh,+919123030247,priya.singh872@outlook.com,What features do you offer? I'm evaluating options.,whatsapp,63,4,0.5,medium,0,1,1
+CUST0071,Anjali Pillai,+919387104291,anjali.pillai11@yahoo.com,What's your customer support like?,whatsapp,31,12,0.63,medium,0,1,1
+CUST0072,Nisha Bhatt,+918924895021,nisha.bhatt812@gmail.com,I'm reviewing your offering. Can we talk next week?,whatsapp,38,4,0.49,medium,0,1,0
+CUST0073,Harsh Chauhan,+919377148230,harsh.chauhan544@outlook.com,Looks good. Can you share more details?,sms,96,9,0.54,medium,0,1,0
+CUST0074,Manish Tiwari,+917518213060,manish.tiwari739@yahoo.com,I'll decide later. Not in a hurry.,sms,16,12,0.41,low,0,0,0
+CUST0075,Rohit Sinha,+917929364954,rohit.sinha757@hotmail.com,Thanks but we handle this in-house.,sms,93,10,0.48,low,0,1,0
+CUST0076,Vikram Mehta,+917833728665,vikram.mehta304@yahoo.com,I'm happy with the features. Let's proceed with purchase.,sms,23,5,0.74,high,0,1,0
+CUST0077,Sneha Patel,+919376658660,sneha.patel300@yahoo.com,I want to place an order. Please share the details.,sms,14,14,0.84,high,0,1,1
+CUST0078,Kavya Menon,+917220661337,kavya.menon259@hotmail.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,106,2,0.57,medium,0,1,1
+CUST0079,Neha Joshi,+917640798731,neha.joshi831@outlook.com,Just window shopping. Nothing serious.,whatsapp,32,2,0.38,low,0,0,0
+CUST0080,Usha Tripathi,+917969318858,usha.tripathi795@hotmail.com,My company needs this. Can you send a proposal?,sms,117,8,1.0,high,0,1,1
+CUST0081,Usha Tripathi,+917258687184,usha.tripathi625@gmail.com,Please send me more information about your plans.,whatsapp,81,4,0.75,high,0,1,0
+CUST0082,Ravi Verma,+917672302490,ravi.verma3@hotmail.com,Can I get a trial before purchasing?,sms,89,10,0.47,medium,0,1,1
+CUST0083,Lakshmi Krishnan,+917305714736,lakshmi.krishnan704@yahoo.com,Not sure if I need this. Just checking.,sms,101,13,0.44,low,0,0,0
+CUST0084,Rohit Sinha,+918825957977,rohit.sinha118@yahoo.com,I appreciate the offer but not interested right now.,whatsapp,117,5,0.32,low,0,1,0
+CUST0085,Sunita Choudhary,+919555694670,sunita.choudhary767@outlook.com,Do not contact me again.,sms,16,8,0.08,low,1,0,0
+CUST0086,Anjali Pillai,+919149511642,anjali.pillai553@hotmail.com,I want to upgrade my current plan. Please help.,sms,11,10,0.92,high,0,1,1
+CUST0087,Priya Singh,+917392245997,priya.singh235@gmail.com,I never signed up for this. Please stop.,sms,74,1,0.09,low,1,0,0
+CUST0088,Vinay Dubey,+918194673401,vinay.dubey186@hotmail.com,Can you share your case studies?,sms,12,8,0.5,medium,0,1,0
+CUST0089,Arjun Das,+918416495962,arjun.das422@hotmail.com,Thanks but we handle this in-house.,sms,85,7,0.31,low,0,1,0
+CUST0090,Anita Gupta,+918350840898,anita.gupta259@outlook.com,Thanks but I already purchased from another vendor.,whatsapp,99,7,0.5,low,0,1,0
+CUST0091,Tarun Ghosh,+918984173309,tarun.ghosh424@gmail.com,I might be interested in the future. Not now.,whatsapp,67,6,0.39,low,0,0,0
+CUST0092,Sneha Patel,+917874275988,sneha.patel274@yahoo.com,Remove me from your list immediately.,sms,57,15,0.01,low,1,0,0
+CUST0093,Sameer Kulkarni,+918027774780,sameer.kulkarni727@yahoo.com,Interesting product. Maybe someday I'll try it.,sms,71,1,0.27,low,0,0,0
+CUST0094,Pooja Nair,+918981903597,pooja.nair970@gmail.com,Not interested. Never contact me again.,whatsapp,64,15,0.14,low,1,0,0
+CUST0095,Karan Bose,+919072319898,karan.bose484@yahoo.com,We're evaluating tools. Can you send a brochure?,sms,71,3,0.58,medium,0,1,1
+CUST0096,Suresh Reddy,+917299832023,suresh.reddy283@hotmail.com,Can I get this for free? I have no budget.,sms,120,13,0.2,low,0,0,0
+CUST0097,Sunita Choudhary,+919520878317,sunita.choudhary594@hotmail.com,Can you share your case studies?,whatsapp,58,9,0.57,medium,0,1,0
+CUST0098,Lakshmi Krishnan,+918382023198,lakshmi.krishnan891@yahoo.com,I want to upgrade my current plan. Please help.,whatsapp,74,7,0.71,high,0,1,1
+CUST0099,Sanjay Yadav,+918658195603,sanjay.yadav680@yahoo.com,I'll think about it and get back to you.,sms,5,3,0.3,low,0,0,0
+CUST0100,Vikram Mehta,+918891100776,vikram.mehta103@hotmail.com,We might need this. Let me check with management.,whatsapp,93,3,0.69,medium,0,1,0
+CUST0101,Deepak Mishra,+918454109425,deepak.mishra639@hotmail.com,Thanks but we handle this in-house.,whatsapp,110,6,0.41,low,0,1,0
+CUST0102,Aakash Malhotra,+919692081959,aakash.malhotra736@hotmail.com,I want to place an order. Please share the details.,whatsapp,80,2,1.0,high,0,1,1
+CUST0103,Swati Nanda,+917422809996,swati.nanda779@gmail.com,I'm very interested in your product. Can you share pricing?,sms,22,12,0.71,high,0,1,1
+CUST0104,Nikhil Banerjee,+918539588337,nikhil.banerjee384@hotmail.com,We might need this. Let me check with management.,whatsapp,32,9,0.64,medium,0,1,0
+CUST0105,Anita Gupta,+919617747281,anita.gupta892@hotmail.com,I'm browsing around. Not looking to buy.,whatsapp,64,15,0.34,low,0,0,0
+CUST0106,Deepak Mishra,+918973840257,deepak.mishra262@gmail.com,I never signed up for this. Please stop.,sms,116,5,0.01,low,1,0,0
+CUST0107,Gaurav Pandey,+919523601252,gaurav.pandey307@hotmail.com,How does your product compare to competitors?,sms,59,14,0.66,medium,0,1,0
+CUST0108,Sanjay Yadav,+919456389272,sanjay.yadav368@outlook.com,Wrong number. Please don't contact me.,sms,3,14,0.0,low,1,0,0
+CUST0109,Sneha Patel,+919604496061,sneha.patel764@hotmail.com,Please send me the contract. I want to finalize this.,sms,100,13,0.77,high,0,1,0
+CUST0110,Deepak Mishra,+919910976189,deepak.mishra774@yahoo.com,Just exploring options. Not serious yet.,whatsapp,116,11,0.44,low,0,0,0
+CUST0111,Amit Kumar,+919489250532,amit.kumar374@yahoo.com,How does your product compare to competitors?,whatsapp,117,5,0.45,medium,0,1,0
+CUST0112,Tarun Ghosh,+918571346130,tarun.ghosh544@outlook.com,We're in a budget freeze currently.,whatsapp,33,15,0.59,low,0,1,0
+CUST0113,Nikhil Banerjee,+918454770940,nikhil.banerjee824@gmail.com,This is spam. Unsubscribe me now.,sms,10,3,0.17,low,1,0,0
+CUST0114,Preeti Agarwal,+919393639475,preeti.agarwal375@gmail.com,I might be interested in the future. Not now.,sms,2,5,0.31,low,0,0,0
+CUST0115,Deepak Mishra,+919510666490,deepak.mishra391@outlook.com,Can I see a demo before deciding?,whatsapp,87,4,0.67,medium,0,1,0
+CUST0116,Usha Tripathi,+917950764876,usha.tripathi664@gmail.com,How does your product compare to competitors?,sms,117,12,0.44,medium,0,1,0
+CUST0117,Amit Kumar,+918307235909,amit.kumar505@gmail.com,Just window shopping. Nothing serious.,whatsapp,31,15,0.34,low,0,0,0
+CUST0118,Tarun Ghosh,+918800135697,tarun.ghosh602@yahoo.com,Good product but not for us right now.,sms,84,2,0.42,low,0,1,0
+CUST0119,Anjali Pillai,+917140515379,anjali.pillai707@outlook.com,We just renewed our contract with another provider.,whatsapp,57,8,0.33,low,0,1,0
+CUST0120,Meera Iyer,+919338463041,meera.iyer924@outlook.com,I've been looking for this. Can we schedule a call?,whatsapp,51,5,0.98,high,0,1,1
+CUST0121,Anita Gupta,+919846570058,anita.gupta218@gmail.com,What are the payment options available?,whatsapp,101,6,0.94,high,0,1,1
+CUST0122,Pallavi Jain,+917889734128,pallavi.jain601@yahoo.com,I'd like to buy 5 licenses. What's the cost?,whatsapp,43,13,0.7,high,0,1,1
+CUST0123,Neha Joshi,+917558311957,neha.joshi554@outlook.com,We don't have budget this quarter. Try next year.,whatsapp,15,11,0.3,low,0,1,0
+CUST0124,Sonia Kapoor,+919529104043,sonia.kapoor332@gmail.com,I want to upgrade my current plan. Please help.,whatsapp,34,1,0.86,high,0,1,1
+CUST0125,Harsh Chauhan,+918925327382,harsh.chauhan797@outlook.com,I'd like to buy 5 licenses. What's the cost?,whatsapp,58,9,0.71,high,0,1,1
+CUST0126,Smita Desai,+918295492409,smita.desai470@gmail.com,We might need this. Let me check with management.,whatsapp,62,14,0.43,medium,0,1,1
+CUST0127,Vinay Dubey,+917315640205,vinay.dubey921@gmail.com,How soon can we get started? I'm ready to move forward.,sms,78,3,0.89,high,0,1,1
+CUST0128,Aakash Malhotra,+918635971911,aakash.malhotra612@outlook.com,I'll think about it. Can you follow up next month?,sms,65,10,0.61,medium,0,1,1
+CUST0129,Pallavi Jain,+917923517027,pallavi.jain441@hotmail.com,Appreciate the outreach but we're good for now.,whatsapp,53,6,0.42,low,0,1,0
+CUST0130,Vikram Mehta,+918342384949,vikram.mehta438@outlook.com,This is harassment. I'll report you.,sms,48,3,0.01,low,1,0,0
+CUST0131,Anita Gupta,+917400420225,anita.gupta443@gmail.com,I'll think about it and get back to you.,sms,104,3,0.49,low,0,0,0
+CUST0132,Pallavi Jain,+918415818695,pallavi.jain687@gmail.com,Please respect my privacy.,sms,46,14,0.08,low,1,0,0
+CUST0133,Sneha Patel,+918235358894,sneha.patel615@outlook.com,What is this about? Just curious.,sms,14,10,0.4,low,0,0,0
+CUST0134,Manish Tiwari,+917464794418,manish.tiwari359@outlook.com,I'll decide later. Not in a hurry.,whatsapp,98,5,0.33,low,0,0,0
+CUST0135,Pallavi Jain,+919670283403,pallavi.jain629@gmail.com,I want to place an order. Please share the details.,sms,4,3,0.98,high,0,1,1
+CUST0136,Kavya Menon,+917615260464,kavya.menon580@hotmail.com,Just checking out your service. No plans to buy yet.,whatsapp,19,12,0.23,low,0,0,0
+CUST0137,Smita Desai,+917923988689,smita.desai386@hotmail.com,Looks good. Can you share more details?,sms,44,3,0.5,medium,0,1,1
+CUST0138,Sameer Kulkarni,+917364887703,sameer.kulkarni905@gmail.com,Not sure if I need this. Just checking.,whatsapp,21,13,0.22,low,0,0,0
+CUST0139,Vinay Dubey,+919843005049,vinay.dubey435@hotmail.com,I want to start immediately. What do I need to do?,sms,54,5,0.73,high,0,1,1
+CUST0140,Nikhil Banerjee,+919912923661,nikhil.banerjee695@hotmail.com,Can I see a demo before deciding?,sms,6,4,0.42,medium,0,1,0
+CUST0141,Divya Rao,+917589418977,divya.rao783@outlook.com,I want to upgrade my current plan. Please help.,sms,42,2,0.75,high,0,1,1
+CUST0142,Manish Tiwari,+919148610411,manish.tiwari573@outlook.com,How did you get my number? Remove it.,whatsapp,51,14,0.0,low,1,0,0
+CUST0143,Ravi Verma,+918344585158,ravi.verma590@hotmail.com,I'm comparing a few vendors. Your solution looks interesting.,sms,91,11,0.52,medium,0,1,1
+CUST0144,Arjun Das,+919654827789,arjun.das472@outlook.com,I want to upgrade my current plan. Please help.,whatsapp,56,14,0.88,high,0,1,1
+CUST0145,Preeti Agarwal,+918332619083,preeti.agarwal764@outlook.com,I want to start immediately. What do I need to do?,whatsapp,43,13,0.89,high,0,1,1
+CUST0146,Rohit Sinha,+918500555353,rohit.sinha360@yahoo.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,14,3,0.88,high,0,1,1
+CUST0147,Ravi Verma,+917760836806,ravi.verma975@hotmail.com,This is harassment. I'll report you.,sms,97,10,0.14,low,1,0,0
+CUST0148,Vivek Srivastava,+919761628889,vivek.srivastava651@outlook.com,Send me the pricing sheet. I'll decide today.,sms,20,8,0.89,high,0,1,1
+CUST0149,Rekha Naik,+917241257421,rekha.naik361@gmail.com,Please send me the contract. I want to finalize this.,sms,60,8,0.95,high,0,1,0
+CUST0150,Anita Gupta,+919641440900,anita.gupta609@hotmail.com,Thanks but I already purchased from another vendor.,sms,75,9,0.43,low,0,1,0
+CUST0151,Vivek Srivastava,+919799620568,vivek.srivastava193@outlook.com,We're in a budget freeze currently.,sms,65,3,0.33,low,0,1,0
+CUST0152,Ritika Saxena,+917362190850,ritika.saxena517@yahoo.com,I'm interested but need to discuss with my team.,whatsapp,32,12,0.56,medium,0,1,1
+CUST0153,Meera Iyer,+918601387070,meera.iyer940@outlook.com,Can I see a demo before deciding?,sms,53,13,0.42,medium,0,1,1
+CUST0154,Ritika Saxena,+917283089268,ritika.saxena338@gmail.com,Stop wasting my time.,sms,37,5,0.19,low,1,0,0
+CUST0155,Sameer Kulkarni,+917645848526,sameer.kulkarni342@gmail.com,We might need this. Let me check with management.,whatsapp,118,6,0.61,medium,0,1,0
+CUST0156,Sameer Kulkarni,+917363865392,sameer.kulkarni318@hotmail.com,Unsubscribe. Now.,sms,105,3,0.19,low,1,0,0
+CUST0157,Smita Desai,+917401377436,smita.desai662@hotmail.com,I'm reviewing your offering. Can we talk next week?,sms,3,6,0.5,medium,0,1,1
+CUST0158,Rohit Sinha,+917972994972,rohit.sinha141@yahoo.com,Not interested. Never contact me again.,whatsapp,38,14,0.15,low,1,0,0
+CUST0159,Smita Desai,+917162124225,smita.desai678@outlook.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,77,7,0.95,high,0,1,1
+CUST0160,Arjun Das,+918879792991,arjun.das45@hotmail.com,Send me the pricing sheet. I'll decide today.,sms,87,12,0.88,high,0,1,1
+CUST0161,Vinay Dubey,+918005034996,vinay.dubey547@yahoo.com,Interesting product. What's the minimum contract?,sms,104,13,0.46,medium,0,1,1
+CUST0162,Vivek Srivastava,+918892351448,vivek.srivastava473@outlook.com,Can you help me understand the onboarding process?,sms,65,9,0.65,medium,0,1,1
+CUST0163,Suresh Reddy,+918073755632,suresh.reddy54@hotmail.com,I want to start immediately. What do I need to do?,sms,71,15,0.96,high,0,1,1
+CUST0164,Arjun Das,+918171629709,arjun.das461@yahoo.com,Send me the pricing sheet. I'll decide today.,sms,12,15,0.97,high,0,1,1
+CUST0165,Karan Bose,+917228736604,karan.bose406@outlook.com,Can I get a trial before purchasing?,whatsapp,50,2,0.5,medium,0,1,0
+CUST0166,Ritika Saxena,+917627276995,ritika.saxena141@gmail.com,Interesting product. What's the minimum contract?,sms,118,14,0.44,medium,0,1,1
+CUST0167,Vinay Dubey,+919642900640,vinay.dubey6@gmail.com,Thanks but we handle this in-house.,whatsapp,33,4,0.58,low,0,1,0
+CUST0168,Sameer Kulkarni,+919266761348,sameer.kulkarni434@gmail.com,I need this for my business. Please contact me ASAP.,sms,31,5,0.83,high,0,1,1
+CUST0169,Lakshmi Krishnan,+917269754673,lakshmi.krishnan114@hotmail.com,My friend told me about this. Just curious.,whatsapp,81,9,0.24,low,0,0,0
+CUST0170,Swati Nanda,+917006718781,swati.nanda630@outlook.com,Please send me more information about your plans.,whatsapp,74,7,0.86,high,0,1,1
+CUST0171,Smita Desai,+919336814230,smita.desai520@gmail.com,Is there a discount for annual subscription?,sms,112,8,0.99,high,0,1,1
+CUST0172,Priya Singh,+918533706498,priya.singh808@gmail.com,Remove me from your list immediately.,sms,31,12,0.15,low,1,0,0
+CUST0173,Ritika Saxena,+917572989855,ritika.saxena46@outlook.com,Send me the pricing sheet. I'll decide today.,sms,105,11,0.99,high,0,1,1
+CUST0174,Kavya Menon,+917579187439,kavya.menon65@hotmail.com,Can you send me a demo? I'm seriously considering this.,whatsapp,38,4,0.97,high,0,1,1
+CUST0175,Sunita Choudhary,+919213555655,sunita.choudhary408@hotmail.com,Just exploring options. Not serious yet.,sms,5,13,0.31,low,0,0,0
+CUST0176,Sneha Patel,+919816344780,sneha.patel340@outlook.com,How does your product compare to competitors?,whatsapp,103,6,0.62,medium,0,1,1
+CUST0177,Sanjay Yadav,+918456151216,sanjay.yadav998@yahoo.com,I'll think about it. Can you follow up next month?,sms,89,8,0.56,medium,0,1,1
+CUST0178,Swati Nanda,+917338988898,swati.nanda441@yahoo.com,I want to place an order. Please share the details.,sms,42,2,0.79,high,0,1,1
+CUST0179,Swati Nanda,+917715733827,swati.nanda707@hotmail.com,I already have a better solution. Stop messaging.,sms,58,1,0.07,low,1,0,0
+CUST0180,Swati Nanda,+918179206294,swati.nanda655@gmail.com,What's your customer support like?,whatsapp,86,11,0.64,medium,0,1,1
+CUST0181,Priya Singh,+917613233132,priya.singh870@hotmail.com,Please send me the contract. I want to finalize this.,whatsapp,17,2,0.81,high,0,1,1
+CUST0182,Amit Kumar,+919598862507,amit.kumar158@hotmail.com,Please delete my contact from your database.,sms,48,8,0.03,low,1,0,0
+CUST0183,Meera Iyer,+918709543220,meera.iyer322@outlook.com,This is harassment. I'll report you.,whatsapp,15,1,0.1,low,1,0,0
+CUST0184,Pallavi Jain,+917505779640,pallavi.jain269@outlook.com,We need this solution urgently. Can you expedite?,sms,28,10,0.76,high,0,1,0
+CUST0185,Ravi Verma,+918941508568,ravi.verma177@hotmail.com,We just renewed our contract with another provider.,whatsapp,104,11,0.5,low,0,1,0
+CUST0186,Ravi Verma,+919362219754,ravi.verma556@outlook.com,I already have a better solution. Stop messaging.,sms,109,3,0.14,low,1,0,0
+CUST0187,Kavya Menon,+918552597094,kavya.menon521@yahoo.com,We need this solution urgently. Can you expedite?,whatsapp,26,13,0.71,high,0,1,1
+CUST0188,Meera Iyer,+919007492791,meera.iyer823@yahoo.com,Looks good. Can you share more details?,whatsapp,9,5,0.62,medium,0,1,0
+CUST0189,Karan Bose,+919469178881,karan.bose76@yahoo.com,We might need this. Let me check with management.,sms,83,2,0.56,medium,0,1,0
+CUST0190,Pallavi Jain,+919747893988,pallavi.jain602@yahoo.com,Thanks but I already purchased from another vendor.,whatsapp,56,9,0.55,low,0,1,0
+CUST0191,Smita Desai,+917657196424,smita.desai312@yahoo.com,I'm not interested at all. Stop messaging.,whatsapp,42,15,0.19,low,1,0,0
+CUST0192,Smita Desai,+918219978197,smita.desai867@gmail.com,Not the right time for us. Maybe later.,sms,26,11,0.34,low,0,1,0
+CUST0193,Sunita Choudhary,+919638949369,sunita.choudhary547@gmail.com,I'd like to buy 5 licenses. What's the cost?,whatsapp,76,10,0.92,high,0,1,1
+CUST0194,Vivek Srivastava,+917176928180,vivek.srivastava846@gmail.com,Wrong number. Please don't contact me.,whatsapp,6,11,0.13,low,1,0,0
+CUST0195,Vivek Srivastava,+918789226605,vivek.srivastava633@gmail.com,Not sure if I need this. Just checking.,sms,114,11,0.49,low,0,0,0
+CUST0196,Harsh Chauhan,+918051742593,harsh.chauhan825@hotmail.com,I never signed up for this. Please stop.,sms,59,2,0.09,low,1,0,0
+CUST0197,Harsh Chauhan,+918994763896,harsh.chauhan209@outlook.com,Do not contact me again.,whatsapp,41,14,0.2,low,1,0,0
+CUST0198,Gaurav Pandey,+918712474804,gaurav.pandey134@outlook.com,What features do you offer? I'm evaluating options.,whatsapp,41,4,0.53,medium,0,1,0
+CUST0199,Sneha Patel,+918246451043,sneha.patel969@hotmail.com,We just renewed our contract with another provider.,sms,32,14,0.58,low,0,1,0
+CUST0200,Aakash Malhotra,+917815331250,aakash.malhotra782@yahoo.com,What features do you offer? I'm evaluating options.,sms,66,8,0.55,medium,0,1,0
+CUST0201,Preeti Agarwal,+919170867436,preeti.agarwal469@yahoo.com,I want to place an order. Please share the details.,whatsapp,75,6,0.85,high,0,1,1
+CUST0202,Harsh Chauhan,+918227279967,harsh.chauhan550@gmail.com,We just renewed our contract with another provider.,whatsapp,56,3,0.53,low,0,1,0
+CUST0203,Meera Iyer,+917194314620,meera.iyer411@gmail.com,Is there a discount for annual subscription?,whatsapp,47,9,0.85,high,0,1,1
+CUST0204,Anjali Pillai,+919676802207,anjali.pillai697@gmail.com,Can you share your case studies?,whatsapp,13,7,0.57,medium,0,1,0
+CUST0205,Neha Joshi,+917854947088,neha.joshi617@hotmail.com,Ready to buy. Just need invoice details.,whatsapp,6,1,0.94,high,0,1,1
+CUST0206,Neha Joshi,+919603869092,neha.joshi915@yahoo.com,How does your product compare to competitors?,sms,120,10,0.7,medium,0,1,1
+CUST0207,Sunita Choudhary,+919550027973,sunita.choudhary345@hotmail.com,Ready to buy. Just need invoice details.,sms,61,14,0.9,high,0,1,1
+CUST0208,Rekha Naik,+918321466224,rekha.naik816@gmail.com,Please respect my privacy.,sms,34,11,0.12,low,1,0,0
+CUST0209,Manish Tiwari,+917220568746,manish.tiwari598@hotmail.com,Please respect my privacy.,whatsapp,68,11,0.17,low,1,0,0
+CUST0210,Neha Joshi,+919923699745,neha.joshi249@gmail.com,How does your product compare to competitors?,whatsapp,25,1,0.45,medium,0,1,1
+CUST0211,Karan Bose,+919155298355,karan.bose794@hotmail.com,Just looking around. No specific need right now.,whatsapp,91,3,0.3,low,0,0,0
+CUST0212,Harsh Chauhan,+919256907178,harsh.chauhan386@outlook.com,Just looking around. No specific need right now.,whatsapp,59,15,0.31,low,0,0,0
+CUST0213,Deepak Mishra,+919620258967,deepak.mishra496@yahoo.com,I want to place an order. Please share the details.,whatsapp,36,9,0.93,high,0,1,1
+CUST0214,Nisha Bhatt,+918361679629,nisha.bhatt492@outlook.com,Just looking around. No specific need right now.,sms,37,2,0.31,low,0,0,0
+CUST0215,Preeti Agarwal,+918482342139,preeti.agarwal978@yahoo.com,I appreciate the offer but not interested right now.,sms,6,5,0.4,low,0,1,0
+CUST0216,Vinay Dubey,+919817378520,vinay.dubey263@hotmail.com,Is this free? I don't want to pay anything.,whatsapp,26,14,0.37,low,0,0,0
+CUST0217,Anjali Pillai,+917589582865,anjali.pillai112@yahoo.com,Our company already has a similar tool.,whatsapp,7,11,0.49,low,0,1,0
+CUST0218,Sneha Patel,+917430346953,sneha.patel424@outlook.com,STOP sending me messages!,sms,13,11,0.19,low,1,0,0
+CUST0219,Arjun Das,+918747654202,arjun.das669@hotmail.com,Wrong number. Please don't contact me.,sms,84,4,0.06,low,1,0,0
+CUST0220,Sneha Patel,+917384230848,sneha.patel668@yahoo.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,117,15,0.98,high,0,1,0
+CUST0221,Preeti Agarwal,+919127657643,preeti.agarwal191@outlook.com,Interesting product. Maybe someday I'll try it.,whatsapp,2,5,0.48,low,0,0,0
+CUST0222,Ritika Saxena,+918222182982,ritika.saxena466@hotmail.com,I'm reviewing your offering. Can we talk next week?,whatsapp,109,9,0.64,medium,0,1,0
+CUST0223,Lakshmi Krishnan,+919784364341,lakshmi.krishnan264@yahoo.com,Please delete my contact from your database.,whatsapp,95,6,0.13,low,1,0,0
+CUST0224,Rohit Sinha,+917753744909,rohit.sinha626@hotmail.com,I've been looking for this. Can we schedule a call?,sms,66,6,0.76,high,0,1,0
+CUST0225,Aakash Malhotra,+918065354117,aakash.malhotra7@outlook.com,I'm not interested at all. Stop messaging.,sms,31,8,0.06,low,1,0,0
+CUST0226,Vivek Srivastava,+917049116110,vivek.srivastava268@outlook.com,I want to place an order. Please share the details.,whatsapp,8,11,0.75,high,0,1,1
+CUST0227,Sunita Choudhary,+919964774623,sunita.choudhary121@outlook.com,What are the payment options available?,sms,79,4,0.84,high,0,1,1
+CUST0228,Sameer Kulkarni,+918604706474,sameer.kulkarni426@hotmail.com,Please delete my contact from your database.,whatsapp,98,4,0.17,low,1,0,0
+CUST0229,Anita Gupta,+919257033897,anita.gupta458@outlook.com,I'm happy with the features. Let's proceed with purchase.,whatsapp,118,10,0.97,high,0,1,1
+CUST0230,Tarun Ghosh,+917643611097,tarun.ghosh169@outlook.com,My company needs this. Can you send a proposal?,sms,15,11,0.85,high,0,1,1
+CUST0231,Vinay Dubey,+917238953970,vinay.dubey465@yahoo.com,Send me the pricing sheet. I'll decide today.,sms,59,10,0.9,high,0,1,1
+CUST0232,Priya Singh,+918700586760,priya.singh261@gmail.com,Please send me the contract. I want to finalize this.,whatsapp,75,2,0.91,high,0,1,1
+CUST0233,Sneha Patel,+917296434961,sneha.patel957@hotmail.com,What are the payment options available?,whatsapp,37,7,0.93,high,0,1,1
+CUST0234,Karan Bose,+918608297407,karan.bose913@hotmail.com,Appreciate the outreach but we're good for now.,sms,112,15,0.32,low,0,1,0
+CUST0235,Tarun Ghosh,+917571186857,tarun.ghosh670@outlook.com,Can you help me understand the onboarding process?,whatsapp,23,9,0.62,medium,0,1,0
+CUST0236,Rahul Sharma,+917097647459,rahul.sharma306@hotmail.com,Our company already has a similar tool.,sms,69,7,0.44,low,0,1,0
+CUST0237,Neha Joshi,+918183906581,neha.joshi194@gmail.com,I'll think about it. Can you follow up next month?,whatsapp,104,11,0.68,medium,0,1,1
+CUST0238,Sonia Kapoor,+917885113834,sonia.kapoor69@gmail.com,Unsubscribe. Now.,whatsapp,58,10,0.01,low,1,0,0
+CUST0239,Amit Kumar,+918727716512,amit.kumar450@yahoo.com,I never signed up for this. Please stop.,whatsapp,97,14,0.1,low,1,0,0
+CUST0240,Nikhil Banerjee,+918005716063,nikhil.banerjee836@outlook.com,Thanks but we handle this in-house.,sms,31,5,0.37,low,0,1,0
+CUST0241,Sunita Choudhary,+918181777110,sunita.choudhary63@yahoo.com,Please send me the contract. I want to finalize this.,sms,72,8,0.98,high,0,1,1
+CUST0242,Smita Desai,+918368954072,smita.desai714@hotmail.com,I'll think about it. Can you follow up next month?,sms,20,5,0.56,medium,0,1,0
+CUST0243,Manish Tiwari,+918291653057,manish.tiwari879@yahoo.com,Just window shopping. Nothing serious.,sms,118,1,0.37,low,0,0,0
+CUST0244,Suresh Reddy,+918668247132,suresh.reddy249@outlook.com,Send me the pricing sheet. I'll decide today.,whatsapp,43,11,0.95,high,0,1,0
+CUST0245,Rohit Sinha,+917221348142,rohit.sinha275@hotmail.com,My company needs this. Can you send a proposal?,whatsapp,112,2,0.92,high,0,1,1
+CUST0246,Harsh Chauhan,+917897171779,harsh.chauhan891@outlook.com,Can you send me a demo? I'm seriously considering this.,sms,117,1,0.99,high,0,1,0
+CUST0247,Harsh Chauhan,+918041929790,harsh.chauhan713@yahoo.com,I'll decide later. Not in a hurry.,sms,118,4,0.28,low,0,0,0
+CUST0248,Lakshmi Krishnan,+919292009846,lakshmi.krishnan665@outlook.com,I might be interested in the future. Not now.,sms,34,6,0.34,low,0,0,0
+CUST0249,Harsh Chauhan,+918375391482,harsh.chauhan937@yahoo.com,I need this for my business. Please contact me ASAP.,sms,41,7,0.92,high,0,1,0
+CUST0250,Pallavi Jain,+919508397912,pallavi.jain594@hotmail.com,How does your product compare to competitors?,sms,20,4,0.57,medium,0,1,0
+CUST0251,Pallavi Jain,+919811519776,pallavi.jain967@outlook.com,Looks good. Can you share more details?,sms,98,14,0.59,medium,0,1,0
+CUST0252,Arjun Das,+918512585138,arjun.das174@yahoo.com,Thanks but I already purchased from another vendor.,sms,24,15,0.46,low,0,1,0
+CUST0253,Ravi Verma,+919869963931,ravi.verma50@gmail.com,Interesting product. Maybe someday I'll try it.,sms,18,14,0.41,low,0,0,0
+CUST0254,Rahul Sharma,+917939393836,rahul.sharma518@hotmail.com,Is this free? I don't want to pay anything.,sms,8,10,0.38,low,0,0,0
+CUST0255,Harsh Chauhan,+919831604672,harsh.chauhan500@gmail.com,Can I get a trial before purchasing?,whatsapp,69,9,0.56,medium,0,1,0
+CUST0256,Nikhil Banerjee,+917073626894,nikhil.banerjee515@hotmail.com,What are the payment options available?,whatsapp,14,15,0.77,high,0,1,1
+CUST0257,Deepak Mishra,+918522312933,deepak.mishra274@hotmail.com,I'm reviewing your offering. Can we talk next week?,whatsapp,48,7,0.7,medium,0,1,0
+CUST0258,Anita Gupta,+919807773530,anita.gupta879@gmail.com,I'm interested but need to discuss with my team.,whatsapp,52,7,0.42,medium,0,1,0
+CUST0259,Arjun Das,+917355134188,arjun.das512@hotmail.com,Thanks but we handle this in-house.,sms,73,14,0.58,low,0,1,0
+CUST0260,Manish Tiwari,+917908029328,manish.tiwari923@hotmail.com,How soon can we get started? I'm ready to move forward.,sms,6,15,0.97,high,0,1,1
+CUST0261,Amit Kumar,+917770321709,amit.kumar952@outlook.com,Is there a discount for annual subscription?,whatsapp,27,10,0.98,high,0,1,1
+CUST0262,Vivek Srivastava,+918032820212,vivek.srivastava581@hotmail.com,Please respect my privacy.,sms,50,13,0.2,low,1,0,0
+CUST0263,Anita Gupta,+919150888898,anita.gupta764@outlook.com,Please send me more information about your plans.,whatsapp,13,7,0.8,high,0,1,1
+CUST0264,Sameer Kulkarni,+918703826594,sameer.kulkarni993@outlook.com,This is harassment. I'll report you.,whatsapp,82,5,0.1,low,1,0,0
+CUST0265,Gaurav Pandey,+919375278922,gaurav.pandey964@hotmail.com,Just window shopping. Nothing serious.,sms,24,11,0.23,low,0,0,0
+CUST0266,Usha Tripathi,+918268645208,usha.tripathi818@yahoo.com,What are the payment options available?,whatsapp,11,5,0.92,high,0,1,1
+CUST0267,Vikram Mehta,+917393077279,vikram.mehta6@outlook.com,What are the payment options available?,sms,47,13,0.73,high,0,1,1
+CUST0268,Pallavi Jain,+919382590159,pallavi.jain525@hotmail.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,4,2,0.58,medium,0,1,1
+CUST0269,Sanjay Yadav,+917053002550,sanjay.yadav299@hotmail.com,Not interested. Never contact me again.,sms,100,2,0.18,low,1,0,0
+CUST0270,Sonia Kapoor,+919456551333,sonia.kapoor534@yahoo.com,How soon can we get started? I'm ready to move forward.,sms,22,3,0.85,high,0,1,0
+CUST0271,Swati Nanda,+918185247208,swati.nanda432@outlook.com,I'm reviewing your offering. Can we talk next week?,sms,101,2,0.62,medium,0,1,0
+CUST0272,Usha Tripathi,+917839873216,usha.tripathi469@gmail.com,We just renewed our contract with another provider.,whatsapp,39,1,0.55,low,0,1,0
+CUST0273,Sanjay Yadav,+918415370893,sanjay.yadav451@outlook.com,Good product but not for us right now.,sms,105,14,0.34,low,0,1,0
+CUST0274,Aakash Malhotra,+919590772665,aakash.malhotra971@yahoo.com,We just renewed our contract with another provider.,sms,41,3,0.39,low,0,1,0
+CUST0275,Nisha Bhatt,+919473382684,nisha.bhatt801@yahoo.com,Appreciate the outreach but we're good for now.,sms,49,5,0.41,low,0,1,0
+CUST0276,Vivek Srivastava,+917858134663,vivek.srivastava607@yahoo.com,Our company already has a similar tool.,whatsapp,94,8,0.43,low,0,1,0
+CUST0277,Nikhil Banerjee,+919975704877,nikhil.banerjee71@hotmail.com,What features do you offer? I'm evaluating options.,sms,18,11,0.6,medium,0,1,1
+CUST0278,Sanjay Yadav,+917317677825,sanjay.yadav460@hotmail.com,Appreciate the outreach but we're good for now.,sms,69,9,0.46,low,0,1,0
+CUST0279,Meera Iyer,+919305993661,meera.iyer609@gmail.com,I'm not interested at all. Stop messaging.,whatsapp,99,4,0.03,low,1,0,0
+CUST0280,Usha Tripathi,+917190252832,usha.tripathi577@hotmail.com,I've been looking for this. Can we schedule a call?,sms,102,7,0.78,high,0,1,1
+CUST0281,Smita Desai,+919396563469,smita.desai595@yahoo.com,We might need this. Let me check with management.,sms,48,7,0.58,medium,0,1,0
+CUST0282,Gaurav Pandey,+917105495798,gaurav.pandey495@gmail.com,I appreciate the offer but not interested right now.,sms,54,15,0.55,low,0,1,0
+CUST0283,Neha Joshi,+918496060167,neha.joshi320@outlook.com,Tell me more but I'm not committing to anything.,sms,101,4,0.34,low,0,0,0
+CUST0284,Vinay Dubey,+919992575455,vinay.dubey464@outlook.com,I appreciate the offer but not interested right now.,whatsapp,39,1,0.31,low,0,1,0
+CUST0285,Ritika Saxena,+919783009621,ritika.saxena112@yahoo.com,Tell me more but I'm not committing to anything.,whatsapp,67,3,0.37,low,0,0,0
+CUST0286,Lakshmi Krishnan,+917995811976,lakshmi.krishnan817@hotmail.com,How did you get my number? Remove it.,whatsapp,24,11,0.01,low,1,0,0
+CUST0287,Usha Tripathi,+917847501988,usha.tripathi461@hotmail.com,How soon can we get started? I'm ready to move forward.,sms,1,12,0.93,high,0,1,1
+CUST0288,Ravi Verma,+919479690385,ravi.verma105@yahoo.com,What features do you offer? I'm evaluating options.,sms,42,4,0.6,medium,0,1,0
+CUST0289,Aakash Malhotra,+919563970187,aakash.malhotra398@hotmail.com,Good product but not for us right now.,whatsapp,45,6,0.35,low,0,1,0
+CUST0290,Sunita Choudhary,+919639190897,sunita.choudhary605@gmail.com,I've been looking for this. Can we schedule a call?,whatsapp,41,2,0.75,high,0,1,1
+CUST0291,Rajesh Patil,+918668437028,rajesh.patil429@yahoo.com,What's your customer support like?,sms,55,3,0.61,medium,0,1,1
+CUST0292,Kavya Menon,+919383331379,kavya.menon171@hotmail.com,I'm interested but need to discuss with my team.,sms,18,3,0.59,medium,0,1,1
+CUST0293,Rahul Sharma,+919081379485,rahul.sharma140@yahoo.com,How did you get my number? Remove it.,sms,72,9,0.14,low,1,0,0
+CUST0294,Karan Bose,+918906328733,karan.bose501@yahoo.com,This is spam. Unsubscribe me now.,whatsapp,73,1,0.06,low,1,0,0
+CUST0295,Anjali Pillai,+917965695131,anjali.pillai551@outlook.com,I'll decide later. Not in a hurry.,whatsapp,100,8,0.43,low,0,0,0
+CUST0296,Pallavi Jain,+919193894984,pallavi.jain116@gmail.com,We just renewed our contract with another provider.,sms,100,9,0.46,low,0,1,0
+CUST0297,Amit Kumar,+918895655026,amit.kumar560@yahoo.com,Our company already has a similar tool.,sms,14,12,0.39,low,0,1,0
+CUST0298,Amit Kumar,+918931585714,amit.kumar270@outlook.com,Our company already has a similar tool.,whatsapp,57,14,0.36,low,0,1,0
+CUST0299,Rekha Naik,+919959806220,rekha.naik360@hotmail.com,Unsubscribe. Now.,whatsapp,79,3,0.04,low,1,0,0
+CUST0300,Sneha Patel,+919448450685,sneha.patel360@outlook.com,My company needs this. Can you send a proposal?,whatsapp,42,12,0.78,high,0,1,1
+CUST0301,Vikram Mehta,+917582349911,vikram.mehta986@hotmail.com,Do not contact me again.,whatsapp,36,14,0.17,low,1,0,0
+CUST0302,Sonia Kapoor,+917628110811,sonia.kapoor729@outlook.com,This is harassment. I'll report you.,whatsapp,98,14,0.03,low,1,0,0
+CUST0303,Anjali Pillai,+919696435541,anjali.pillai425@hotmail.com,Please respect my privacy.,sms,10,11,0.02,low,1,0,0
+CUST0304,Rajesh Patil,+918194970235,rajesh.patil712@outlook.com,Can I get this for free? I have no budget.,sms,63,6,0.43,low,0,0,0
+CUST0305,Anita Gupta,+918969024554,anita.gupta651@outlook.com,How does your product compare to competitors?,whatsapp,102,9,0.65,medium,0,1,0
+CUST0306,Aakash Malhotra,+918218023007,aakash.malhotra346@yahoo.com,Thanks but I already purchased from another vendor.,sms,101,6,0.31,low,0,1,0
+CUST0307,Lakshmi Krishnan,+917069927882,lakshmi.krishnan128@yahoo.com,Appreciate the outreach but we're good for now.,sms,59,1,0.36,low,0,1,0
+CUST0308,Suresh Reddy,+919791716713,suresh.reddy310@yahoo.com,I'm comparing a few vendors. Your solution looks interesting.,sms,12,11,0.51,medium,0,1,1
+CUST0309,Arjun Das,+917222424647,arjun.das406@outlook.com,I've been looking for this. Can we schedule a call?,whatsapp,55,11,0.7,high,0,1,1
+CUST0310,Suresh Reddy,+919549834042,suresh.reddy232@hotmail.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,2,12,0.7,medium,0,1,0
+CUST0311,Suresh Reddy,+919051706927,suresh.reddy73@yahoo.com,I appreciate the offer but not interested right now.,sms,12,12,0.39,low,0,1,0
+CUST0312,Sunita Choudhary,+917588965831,sunita.choudhary392@yahoo.com,I'll think about it and get back to you.,whatsapp,9,9,0.4,low,0,0,0
+CUST0313,Vinay Dubey,+918508339770,vinay.dubey740@yahoo.com,I might be interested in the future. Not now.,whatsapp,118,7,0.46,low,0,0,0
+CUST0314,Anita Gupta,+917431494396,anita.gupta144@gmail.com,Can you help me understand the onboarding process?,sms,45,7,0.47,medium,0,1,1
+CUST0315,Sonia Kapoor,+919376820435,sonia.kapoor616@outlook.com,Wrong number. Please don't contact me.,whatsapp,109,14,0.04,low,1,0,0
+CUST0316,Sameer Kulkarni,+919188382776,sameer.kulkarni194@hotmail.com,Please respect my privacy.,sms,83,1,0.19,low,1,0,0
+CUST0317,Nisha Bhatt,+918657365938,nisha.bhatt116@yahoo.com,I'm very interested in your product. Can you share pricing?,sms,82,10,1.0,high,0,1,1
+CUST0318,Suresh Reddy,+918661457617,suresh.reddy882@hotmail.com,We need this solution urgently. Can you expedite?,sms,70,11,0.99,high,0,1,1
+CUST0319,Priya Singh,+919522707023,priya.singh70@gmail.com,Appreciate the outreach but we're good for now.,sms,28,1,0.45,low,0,1,0
+CUST0320,Rajesh Patil,+918784266819,rajesh.patil434@hotmail.com,What is this about? Just curious.,whatsapp,82,9,0.28,low,0,0,0
+CUST0321,Sunita Choudhary,+917339395013,sunita.choudhary524@yahoo.com,We might need this. Let me check with management.,whatsapp,69,6,0.63,medium,0,1,1
+CUST0322,Ravi Verma,+918332167822,ravi.verma716@hotmail.com,I want to upgrade my current plan. Please help.,whatsapp,8,4,0.73,high,0,1,1
+CUST0323,Sneha Patel,+918328390707,sneha.patel683@yahoo.com,I'm very interested in your product. Can you share pricing?,whatsapp,2,12,0.75,high,0,1,1
+CUST0324,Smita Desai,+919221455181,smita.desai802@outlook.com,Unsubscribe. Now.,whatsapp,48,3,0.05,low,1,0,0
+CUST0325,Pooja Nair,+917126084156,pooja.nair344@hotmail.com,My company needs this. Can you send a proposal?,sms,68,2,0.89,high,0,1,1
+CUST0326,Rajesh Patil,+918546720356,rajesh.patil57@hotmail.com,I've been looking for this. Can we schedule a call?,whatsapp,48,3,0.97,high,0,1,1
+CUST0327,Pooja Nair,+917980989514,pooja.nair759@gmail.com,I want to purchase your service. How do I proceed?,whatsapp,110,14,0.84,high,0,1,1
+CUST0328,Neha Joshi,+917768631342,neha.joshi954@gmail.com,Ready to buy. Just need invoice details.,sms,29,6,0.78,high,0,1,0
+CUST0329,Meera Iyer,+917512823094,meera.iyer515@gmail.com,Just checking out your service. No plans to buy yet.,whatsapp,29,13,0.49,low,0,0,0
+CUST0330,Ravi Verma,+918997564262,ravi.verma887@outlook.com,Just checking out your service. No plans to buy yet.,sms,42,2,0.31,low,0,0,0
+CUST0331,Nikhil Banerjee,+919421531503,nikhil.banerjee804@outlook.com,I might be interested in the future. Not now.,whatsapp,60,6,0.5,low,0,0,0
+CUST0332,Rohit Sinha,+919347454072,rohit.sinha779@yahoo.com,I'm reviewing your offering. Can we talk next week?,whatsapp,1,15,0.56,medium,0,1,1
+CUST0333,Rahul Sharma,+918438888667,rahul.sharma2@hotmail.com,I'm browsing around. Not looking to buy.,sms,14,4,0.33,low,0,0,0
+CUST0334,Sneha Patel,+917611489444,sneha.patel729@outlook.com,I want to start immediately. What do I need to do?,whatsapp,6,15,0.82,high,0,1,1
+CUST0335,Lakshmi Krishnan,+917364653118,lakshmi.krishnan595@gmail.com,Can I see a demo before deciding?,whatsapp,82,14,0.57,medium,0,1,0
+CUST0336,Suresh Reddy,+918016926858,suresh.reddy299@outlook.com,Interesting product. What's the minimum contract?,sms,119,13,0.62,medium,0,1,0
+CUST0337,Anjali Pillai,+918003352579,anjali.pillai77@yahoo.com,What is this about? Just curious.,whatsapp,100,13,0.23,low,0,0,0
+CUST0338,Vinay Dubey,+919001691476,vinay.dubey322@hotmail.com,Our company already has a similar tool.,whatsapp,69,6,0.44,low,0,1,0
+CUST0339,Lakshmi Krishnan,+918138200363,lakshmi.krishnan873@gmail.com,Unsubscribe. Now.,whatsapp,21,13,0.14,low,1,0,0
+CUST0340,Sameer Kulkarni,+917173215225,sameer.kulkarni221@outlook.com,Please send me the contract. I want to finalize this.,whatsapp,12,12,0.82,high,0,1,0
+CUST0341,Sunita Choudhary,+918117407868,sunita.choudhary840@yahoo.com,Looks good. Can you share more details?,whatsapp,52,14,0.57,medium,0,1,0
+CUST0342,Vikram Mehta,+917600406558,vikram.mehta125@gmail.com,We don't have budget this quarter. Try next year.,whatsapp,107,13,0.36,low,0,1,0
+CUST0343,Preeti Agarwal,+918598757527,preeti.agarwal703@gmail.com,Please send me more information about your plans.,sms,118,14,0.76,high,0,1,1
+CUST0344,Suresh Reddy,+917395045224,suresh.reddy927@outlook.com,My company needs this. Can you send a proposal?,whatsapp,6,8,0.83,high,0,1,1
+CUST0345,Nisha Bhatt,+917126625486,nisha.bhatt392@hotmail.com,Not the right time for us. Maybe later.,whatsapp,46,4,0.38,low,0,1,0
+CUST0346,Neha Joshi,+917148818209,neha.joshi629@yahoo.com,We're in a budget freeze currently.,sms,64,7,0.32,low,0,1,0
+CUST0347,Anjali Pillai,+918645038111,anjali.pillai141@hotmail.com,This is spam. Unsubscribe me now.,whatsapp,83,15,0.13,low,1,0,0
+CUST0348,Tarun Ghosh,+917083880626,tarun.ghosh392@outlook.com,We're evaluating tools. Can you send a brochure?,sms,70,13,0.57,medium,0,1,0
+CUST0349,Anjali Pillai,+917772303297,anjali.pillai27@outlook.com,Not the right time for us. Maybe later.,whatsapp,4,15,0.32,low,0,1,0
+CUST0350,Harsh Chauhan,+919273894381,harsh.chauhan367@yahoo.com,Wrong number. Please don't contact me.,whatsapp,13,4,0.11,low,1,0,0
+CUST0351,Sneha Patel,+917942365574,sneha.patel590@hotmail.com,We don't have budget this quarter. Try next year.,sms,120,14,0.35,low,0,1,0
+CUST0352,Rekha Naik,+918365818354,rekha.naik826@outlook.com,Can I see a demo before deciding?,whatsapp,91,12,0.57,medium,0,1,0
+CUST0353,Rohit Sinha,+919114097693,rohit.sinha556@outlook.com,I need this for my business. Please contact me ASAP.,whatsapp,63,1,0.88,high,0,1,0
+CUST0354,Harsh Chauhan,+917002935589,harsh.chauhan340@yahoo.com,Ready to buy. Just need invoice details.,whatsapp,44,12,0.72,high,0,1,0
+CUST0355,Neha Joshi,+917476400290,neha.joshi867@outlook.com,Appreciate the outreach but we're good for now.,whatsapp,48,12,0.48,low,0,1,0
+CUST0356,Ritika Saxena,+918296071464,ritika.saxena331@yahoo.com,This is harassment. I'll report you.,whatsapp,94,7,0.13,low,1,0,0
+CUST0357,Kavya Menon,+919413674172,kavya.menon711@outlook.com,Appreciate the outreach but we're good for now.,whatsapp,86,10,0.39,low,0,1,0
+CUST0358,Nikhil Banerjee,+917546957087,nikhil.banerjee182@gmail.com,Thanks but I already purchased from another vendor.,sms,109,13,0.35,low,0,1,0
+CUST0359,Aakash Malhotra,+919625862062,aakash.malhotra227@gmail.com,This is spam. Unsubscribe me now.,sms,19,6,0.07,low,1,0,0
+CUST0360,Aakash Malhotra,+917721070971,aakash.malhotra652@gmail.com,I need this for my business. Please contact me ASAP.,sms,58,1,0.91,high,0,1,1
+CUST0361,Vikram Mehta,+917005502537,vikram.mehta50@hotmail.com,Appreciate the outreach but we're good for now.,sms,94,7,0.45,low,0,1,0
+CUST0362,Sanjay Yadav,+918508526390,sanjay.yadav560@hotmail.com,Please delete my contact from your database.,whatsapp,107,8,0.13,low,1,0,0
+CUST0363,Manish Tiwari,+917698604397,manish.tiwari463@gmail.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,38,1,0.42,medium,0,1,0
+CUST0364,Sanjay Yadav,+917691079537,sanjay.yadav750@gmail.com,We're in a budget freeze currently.,whatsapp,44,10,0.51,low,0,1,0
+CUST0365,Swati Nanda,+919807341727,swati.nanda169@hotmail.com,I'm reviewing your offering. Can we talk next week?,whatsapp,7,2,0.52,medium,0,1,0
+CUST0366,Tarun Ghosh,+918139303499,tarun.ghosh677@outlook.com,My company needs this. Can you send a proposal?,sms,31,2,0.86,high,0,1,1
+CUST0367,Sneha Patel,+918549748436,sneha.patel4@hotmail.com,Please delete my contact from your database.,whatsapp,38,14,0.1,low,1,0,0
+CUST0368,Vikram Mehta,+917110533960,vikram.mehta212@yahoo.com,Not the right time for us. Maybe later.,sms,11,8,0.54,low,0,1,0
+CUST0369,Harsh Chauhan,+919100654796,harsh.chauhan917@outlook.com,Can you share your case studies?,whatsapp,83,9,0.67,medium,0,1,0
+CUST0370,Vinay Dubey,+917191628232,vinay.dubey270@hotmail.com,Good product but not for us right now.,sms,34,4,0.32,low,0,1,0
+CUST0371,Vikram Mehta,+917368110105,vikram.mehta685@outlook.com,I want to purchase your service. How do I proceed?,sms,97,10,0.95,high,0,1,1
+CUST0372,Karan Bose,+919300016872,karan.bose704@hotmail.com,I want to purchase your service. How do I proceed?,whatsapp,61,5,0.85,high,0,1,1
+CUST0373,Vivek Srivastava,+919909990149,vivek.srivastava636@yahoo.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,97,8,0.99,high,0,1,1
+CUST0374,Suresh Reddy,+917183291591,suresh.reddy434@gmail.com,Can I get this for free? I have no budget.,sms,26,14,0.38,low,0,0,0
+CUST0375,Aakash Malhotra,+917287814151,aakash.malhotra90@hotmail.com,Thanks but we handle this in-house.,sms,71,6,0.44,low,0,1,0
+CUST0376,Rahul Sharma,+919676013419,rahul.sharma602@hotmail.com,My company needs this. Can you send a proposal?,whatsapp,54,3,0.87,high,0,1,1
+CUST0377,Vikram Mehta,+917453698094,vikram.mehta577@gmail.com,Appreciate the outreach but we're good for now.,sms,112,9,0.38,low,0,1,0
+CUST0378,Nisha Bhatt,+919456821088,nisha.bhatt624@hotmail.com,Can I see a demo before deciding?,whatsapp,23,5,0.58,medium,0,1,1
+CUST0379,Amit Kumar,+918699916883,amit.kumar911@outlook.com,What features do you offer? I'm evaluating options.,whatsapp,7,12,0.67,medium,0,1,0
+CUST0380,Sunita Choudhary,+918335517080,sunita.choudhary288@hotmail.com,Send me the pricing sheet. I'll decide today.,whatsapp,112,4,0.93,high,0,1,1
+CUST0381,Karan Bose,+919598365569,karan.bose662@gmail.com,Appreciate the outreach but we're good for now.,whatsapp,57,4,0.52,low,0,1,0
+CUST0382,Smita Desai,+918605932109,smita.desai841@gmail.com,How did you get my number? Remove it.,whatsapp,9,5,0.03,low,1,0,0
+CUST0383,Smita Desai,+919442428958,smita.desai30@yahoo.com,I want to purchase your service. How do I proceed?,whatsapp,113,14,0.77,high,0,1,1
+CUST0384,Meera Iyer,+917855169963,meera.iyer281@outlook.com,Interesting product. Maybe someday I'll try it.,sms,65,7,0.4,low,0,0,0
+CUST0385,Sonia Kapoor,+918599732557,sonia.kapoor501@hotmail.com,Tell me more but I'm not committing to anything.,whatsapp,112,8,0.3,low,0,0,0
+CUST0386,Deepak Mishra,+919958590550,deepak.mishra93@outlook.com,My company needs this. Can you send a proposal?,whatsapp,50,1,0.93,high,0,1,1
+CUST0387,Manish Tiwari,+919780475472,manish.tiwari231@yahoo.com,Can I get this for free? I have no budget.,sms,84,7,0.43,low,0,0,0
+CUST0388,Rahul Sharma,+919036231979,rahul.sharma934@yahoo.com,How soon can we get started? I'm ready to move forward.,whatsapp,77,13,0.88,high,0,1,1
+CUST0389,Anjali Pillai,+918820236332,anjali.pillai917@hotmail.com,I want to place an order. Please share the details.,sms,59,5,0.9,high,0,1,1
+CUST0390,Preeti Agarwal,+919510353238,preeti.agarwal105@gmail.com,Just exploring options. Not serious yet.,sms,72,11,0.29,low,0,0,0
+CUST0391,Vikram Mehta,+919069050782,vikram.mehta66@outlook.com,Not the right time for us. Maybe later.,sms,82,6,0.5,low,0,1,0
+CUST0392,Sunita Choudhary,+917809000407,sunita.choudhary154@yahoo.com,Good product but not for us right now.,whatsapp,104,14,0.42,low,0,1,0
+CUST0393,Aakash Malhotra,+919923823693,aakash.malhotra144@gmail.com,Appreciate the outreach but we're good for now.,sms,38,5,0.42,low,0,1,0
+CUST0394,Amit Kumar,+919504067741,amit.kumar726@yahoo.com,I'm happy with the features. Let's proceed with purchase.,sms,93,12,0.89,high,0,1,1
+CUST0395,Gaurav Pandey,+919178900724,gaurav.pandey308@yahoo.com,Looks good. Can you share more details?,whatsapp,38,2,0.48,medium,0,1,1
+CUST0396,Kavya Menon,+919919342370,kavya.menon922@outlook.com,I want to place an order. Please share the details.,whatsapp,29,6,0.83,high,0,1,1
+CUST0397,Meera Iyer,+918119093377,meera.iyer600@outlook.com,Interesting product. What's the minimum contract?,sms,109,2,0.59,medium,0,1,0
+CUST0398,Usha Tripathi,+917305869263,usha.tripathi484@yahoo.com,What features do you offer? I'm evaluating options.,whatsapp,112,11,0.52,medium,0,1,1
+CUST0399,Neha Joshi,+917589979266,neha.joshi206@outlook.com,We're in a budget freeze currently.,sms,73,15,0.34,low,0,1,0
+CUST0400,Kavya Menon,+917347082594,kavya.menon500@outlook.com,Send me the pricing sheet. I'll decide today.,whatsapp,41,11,0.78,high,0,1,1
+CUST0401,Arjun Das,+919475099081,arjun.das783@yahoo.com,I never signed up for this. Please stop.,sms,101,13,0.12,low,1,0,0
+CUST0402,Swati Nanda,+918732561822,swati.nanda440@hotmail.com,My friend told me about this. Just curious.,sms,1,1,0.31,low,0,0,0
+CUST0403,Rahul Sharma,+918383894864,rahul.sharma776@yahoo.com,I'm browsing around. Not looking to buy.,whatsapp,87,1,0.27,low,0,0,0
+CUST0404,Gaurav Pandey,+918340426053,gaurav.pandey133@gmail.com,I'm comparing a few vendors. Your solution looks interesting.,sms,65,10,0.65,medium,0,1,0
+CUST0405,Nikhil Banerjee,+918958188576,nikhil.banerjee746@outlook.com,We just renewed our contract with another provider.,sms,114,11,0.6,low,0,1,0
+CUST0406,Nisha Bhatt,+918542970785,nisha.bhatt769@yahoo.com,Thanks but I already purchased from another vendor.,whatsapp,117,15,0.37,low,0,1,0
+CUST0407,Suresh Reddy,+917907055132,suresh.reddy752@gmail.com,Please respect my privacy.,whatsapp,16,6,0.01,low,1,0,0
+CUST0408,Deepak Mishra,+919296662600,deepak.mishra639@gmail.com,STOP sending me messages!,whatsapp,85,2,0.01,low,1,0,0
+CUST0409,Pooja Nair,+918790037430,pooja.nair455@hotmail.com,Can you help me understand the onboarding process?,whatsapp,71,5,0.46,medium,0,1,1
+CUST0410,Rahul Sharma,+918293285336,rahul.sharma431@gmail.com,How did you get my number? Remove it.,sms,80,10,0.17,low,1,0,0
+CUST0411,Vikram Mehta,+919197239905,vikram.mehta737@gmail.com,Can you send me a demo? I'm seriously considering this.,sms,15,13,0.88,high,0,1,1
+CUST0412,Smita Desai,+917866179751,smita.desai367@hotmail.com,Is this free? I don't want to pay anything.,sms,21,1,0.26,low,0,0,0
+CUST0413,Harsh Chauhan,+918419931729,harsh.chauhan241@gmail.com,Good product but not for us right now.,whatsapp,86,2,0.5,low,0,1,0
+CUST0414,Neha Joshi,+917386902139,neha.joshi799@gmail.com,I might be interested in the future. Not now.,whatsapp,116,5,0.5,low,0,0,0
+CUST0415,Nikhil Banerjee,+918134408349,nikhil.banerjee476@gmail.com,Not the right time for us. Maybe later.,whatsapp,105,3,0.41,low,0,1,0
+CUST0416,Aakash Malhotra,+918829635479,aakash.malhotra757@gmail.com,Thanks but I already purchased from another vendor.,whatsapp,109,13,0.56,low,0,1,0
+CUST0417,Arjun Das,+918411587518,arjun.das367@hotmail.com,Ready to buy. Just need invoice details.,sms,113,12,0.75,high,0,1,1
+CUST0418,Lakshmi Krishnan,+918167514229,lakshmi.krishnan856@hotmail.com,I'll decide later. Not in a hurry.,sms,103,7,0.25,low,0,0,0
+CUST0419,Suresh Reddy,+919990026838,suresh.reddy744@gmail.com,We're in a budget freeze currently.,whatsapp,14,7,0.54,low,0,1,0
+CUST0420,Vinay Dubey,+917778508164,vinay.dubey626@hotmail.com,We don't have budget this quarter. Try next year.,sms,79,1,0.44,low,0,1,0
+CUST0421,Nisha Bhatt,+917485062769,nisha.bhatt909@hotmail.com,Ready to buy. Just need invoice details.,sms,6,2,0.7,high,0,1,1
+CUST0422,Smita Desai,+919476688619,smita.desai742@yahoo.com,Please delete my contact from your database.,sms,67,9,0.02,low,1,0,0
+CUST0423,Sonia Kapoor,+919069872193,sonia.kapoor355@hotmail.com,I'll think about it and get back to you.,whatsapp,108,14,0.22,low,0,0,0
+CUST0424,Arjun Das,+919171396180,arjun.das870@hotmail.com,We need this solution urgently. Can you expedite?,sms,112,3,0.8,high,0,1,1
+CUST0425,Anjali Pillai,+917216254664,anjali.pillai520@yahoo.com,Send me the pricing sheet. I'll decide today.,sms,52,14,0.83,high,0,1,1
+CUST0426,Anita Gupta,+919140852855,anita.gupta45816@hotmail.com,What's your customer support like?,whatsapp,14,7,0.56,medium,0,1,1
+CUST0427,Sameer Kulkarni,+919658868885,sameer.kulkarni653@outlook.com,Can you share your case studies?,whatsapp,84,11,0.51,medium,0,1,0
+CUST0428,Manish Tiwari,+918951890759,manish.tiwari340@hotmail.com,I need this for my business. Please contact me ASAP.,sms,92,8,0.7,high,0,1,1
+CUST0429,Nikhil Banerjee,+919352313121,nikhil.banerjee535@outlook.com,What are the payment options available?,whatsapp,6,15,0.95,high,0,1,1
+CUST0430,Karan Bose,+917459396179,karan.bose261@yahoo.com,Our company already has a similar tool.,whatsapp,16,15,0.44,low,0,1,0
+CUST0431,Rohit Sinha,+918451413560,rohit.sinha111@hotmail.com,Good product but not for us right now.,whatsapp,119,11,0.34,low,0,1,0
+CUST0432,Vinay Dubey,+918964465977,vinay.dubey675@yahoo.com,Not interested. Never contact me again.,sms,1,9,0.19,low,1,0,0
+CUST0433,Rekha Naik,+919074176983,rekha.naik947@yahoo.com,Is there a discount for annual subscription?,whatsapp,94,14,0.9,high,0,1,1
+CUST0434,Aakash Malhotra,+919165136471,aakash.malhotra903@hotmail.com,This is spam. Unsubscribe me now.,sms,78,15,0.05,low,1,0,0
+CUST0435,Ritika Saxena,+918263465731,ritika.saxena464@yahoo.com,Do not contact me again.,whatsapp,53,10,0.1,low,1,0,0
+CUST0436,Pallavi Jain,+918348236583,pallavi.jain729@yahoo.com,Stop wasting my time.,whatsapp,27,10,0.07,low,1,0,0
+CUST0437,Suresh Reddy,+919792099745,suresh.reddy999@yahoo.com,Not interested. Never contact me again.,sms,91,2,0.1,low,1,0,0
+CUST0438,Vivek Srivastava,+919865418497,vivek.srivastava728@hotmail.com,Can I get a trial before purchasing?,sms,113,14,0.56,medium,0,1,0
+CUST0439,Neha Joshi,+917227912437,neha.joshi687@gmail.com,Wrong number. Please don't contact me.,whatsapp,35,13,0.14,low,1,0,0
+CUST0440,Neha Joshi,+917266428954,neha.joshi708@outlook.com,Send me the pricing sheet. I'll decide today.,whatsapp,97,9,0.73,high,0,1,1
+CUST0441,Pallavi Jain,+917963392891,pallavi.jain761@hotmail.com,Do not contact me again.,whatsapp,66,13,0.06,low,1,0,0
+CUST0442,Sneha Patel,+918638884924,sneha.patel397@hotmail.com,How soon can we get started? I'm ready to move forward.,sms,71,1,0.76,high,0,1,1
+CUST0443,Vinay Dubey,+917968723414,vinay.dubey934@outlook.com,Not the right time for us. Maybe later.,whatsapp,100,12,0.43,low,0,1,0
+CUST0444,Ravi Verma,+917803058282,ravi.verma986@yahoo.com,What's your customer support like?,whatsapp,49,1,0.48,medium,0,1,0
+CUST0445,Deepak Mishra,+917024245671,deepak.mishra339@hotmail.com,Good product but not for us right now.,whatsapp,6,3,0.32,low,0,1,0
+CUST0446,Usha Tripathi,+919842796831,usha.tripathi309@hotmail.com,Not interested. Never contact me again.,sms,10,13,0.04,low,1,0,0
+CUST0447,Kavya Menon,+919235986982,kavya.menon70@yahoo.com,Can you share your case studies?,sms,70,9,0.47,medium,0,1,0
+CUST0448,Ritika Saxena,+918421919938,ritika.saxena370@outlook.com,Just looking around. No specific need right now.,whatsapp,97,10,0.45,low,0,0,0
+CUST0449,Rahul Sharma,+917492727022,rahul.sharma685@outlook.com,Is this free? I don't want to pay anything.,sms,31,15,0.39,low,0,0,0
+CUST0450,Amit Kumar,+919931535772,amit.kumar907@outlook.com,Appreciate the outreach but we're good for now.,sms,118,13,0.38,low,0,1,0
+CUST0451,Nikhil Banerjee,+917106110279,nikhil.banerjee934@outlook.com,Can you send me a demo? I'm seriously considering this.,sms,63,1,0.8,high,0,1,0
+CUST0452,Vikram Mehta,+917718955214,vikram.mehta995@gmail.com,I'm browsing around. Not looking to buy.,whatsapp,27,11,0.46,low,0,0,0
+CUST0453,Swati Nanda,+917446362270,swati.nanda211@hotmail.com,Send me the pricing sheet. I'll decide today.,whatsapp,96,11,0.92,high,0,1,0
+CUST0454,Ravi Verma,+917233079614,ravi.verma183@outlook.com,How soon can we get started? I'm ready to move forward.,whatsapp,74,14,0.82,high,0,1,1
+CUST0455,Preeti Agarwal,+918859828364,preeti.agarwal324@gmail.com,Not sure if I need this. Just checking.,sms,87,2,0.42,low,0,0,0
+CUST0456,Ravi Verma,+919515167269,ravi.verma47@gmail.com,I want to place an order. Please share the details.,sms,119,9,0.88,high,0,1,1
+CUST0457,Vinay Dubey,+918638158847,vinay.dubey405@gmail.com,Is there a discount for annual subscription?,sms,21,9,0.94,high,0,1,1
+CUST0458,Nikhil Banerjee,+919723205427,nikhil.banerjee148@outlook.com,We don't have budget this quarter. Try next year.,sms,2,9,0.34,low,0,1,0
+CUST0459,Rahul Sharma,+919459807647,rahul.sharma611@hotmail.com,I already have a better solution. Stop messaging.,whatsapp,40,4,0.15,low,1,0,0
+CUST0460,Divya Rao,+918772337553,divya.rao928@yahoo.com,Just exploring options. Not serious yet.,whatsapp,24,4,0.26,low,0,0,0
+CUST0461,Kavya Menon,+919881828165,kavya.menon819@gmail.com,Please send me more information about your plans.,sms,83,9,0.78,high,0,1,0
+CUST0462,Rekha Naik,+919092466848,rekha.naik975@outlook.com,Remove me from your list immediately.,sms,17,11,0.06,low,1,0,0
+CUST0463,Ravi Verma,+917831070024,ravi.verma326@hotmail.com,Do not contact me again.,sms,43,10,0.12,low,1,0,0
+CUST0464,Vivek Srivastava,+919434653305,vivek.srivastava374@outlook.com,I'll think about it. Can you follow up next month?,sms,22,1,0.47,medium,0,1,1
+CUST0465,Swati Nanda,+918188330817,swati.nanda861@outlook.com,I'm interested but need to discuss with my team.,whatsapp,87,12,0.54,medium,0,1,0
+CUST0466,Sunita Choudhary,+919091526171,sunita.choudhary565@gmail.com,How soon can we get started? I'm ready to move forward.,whatsapp,83,10,0.96,high,0,1,0
+CUST0467,Tarun Ghosh,+917843668735,tarun.ghosh270@gmail.com,Thanks but I already purchased from another vendor.,whatsapp,115,1,0.54,low,0,1,0
+CUST0468,Rekha Naik,+918740039271,rekha.naik788@yahoo.com,Just looking around. No specific need right now.,whatsapp,71,5,0.34,low,0,0,0
+CUST0469,Neha Joshi,+918571179066,neha.joshi402@yahoo.com,Interesting product. Maybe someday I'll try it.,sms,18,8,0.32,low,0,0,0
+CUST0470,Rajesh Patil,+917045490921,rajesh.patil679@yahoo.com,I'd like to buy the premium plan. How do I sign up?,whatsapp,97,9,0.75,high,0,1,1
+CUST0471,Neha Joshi,+919076631329,neha.joshi962@outlook.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,29,13,0.48,medium,0,1,0
+CUST0472,Divya Rao,+919224300124,divya.rao930@outlook.com,Can I get a trial before purchasing?,sms,61,15,0.41,medium,0,1,1
+CUST0473,Vikram Mehta,+919239279558,vikram.mehta649@outlook.com,Just window shopping. Nothing serious.,sms,75,9,0.4,low,0,0,0
+CUST0474,Meera Iyer,+919524061336,meera.iyer670@gmail.com,Is there a discount for annual subscription?,sms,49,15,0.81,high,0,1,1
+CUST0475,Nisha Bhatt,+919070647070,nisha.bhatt909@gmail.com,I want to start immediately. What do I need to do?,whatsapp,57,3,0.89,high,0,1,1
+CUST0476,Kavya Menon,+917675844672,kavya.menon371@gmail.com,I'm comparing a few vendors. Your solution looks interesting.,whatsapp,54,13,0.54,medium,0,1,0
+CUST0477,Divya Rao,+919537427612,divya.rao166@hotmail.com,My company needs this. Can you send a proposal?,whatsapp,32,1,0.75,high,0,1,1
+CUST0478,Amit Kumar,+919457877922,amit.kumar151@gmail.com,Is there a discount for annual subscription?,whatsapp,34,15,0.88,high,0,1,1
+CUST0479,Priya Singh,+919842173377,priya.singh842@outlook.com,I might be interested in the future. Not now.,whatsapp,28,8,0.46,low,0,0,0
+CUST0480,Arjun Das,+917942160389,arjun.das851@hotmail.com,We don't have budget this quarter. Try next year.,whatsapp,102,10,0.49,low,0,1,0
+CUST0481,Rajesh Patil,+918136107759,rajesh.patil172@outlook.com,Is there a discount for annual subscription?,sms,77,10,0.82,high,0,1,0
+CUST0482,Rohit Sinha,+919245028124,rohit.sinha881@hotmail.com,I'd like to buy 5 licenses. What's the cost?,whatsapp,78,2,0.88,high,0,1,1
+CUST0483,Tarun Ghosh,+919161782487,tarun.ghosh771@gmail.com,I'd like to buy 5 licenses. What's the cost?,whatsapp,62,11,0.86,high,0,1,0
+CUST0484,Swati Nanda,+919242162891,swati.nanda431@outlook.com,I'll think about it. Can you follow up next month?,whatsapp,90,9,0.54,medium,0,1,1
+CUST0485,Gaurav Pandey,+919529942267,gaurav.pandey824@gmail.com,I'm reviewing your offering. Can we talk next week?,sms,18,5,0.67,medium,0,1,0
+CUST0486,Sameer Kulkarni,+919335306968,sameer.kulkarni419@outlook.com,STOP sending me messages!,whatsapp,1,12,0.12,low,1,0,0
+CUST0487,Pooja Nair,+919232360156,pooja.nair8@hotmail.com,Can you share your case studies?,whatsapp,89,13,0.43,medium,0,1,0
+CUST0488,Rekha Naik,+918089344285,rekha.naik268@hotmail.com,Appreciate the outreach but we're good for now.,sms,79,5,0.53,low,0,1,0
+CUST0489,Karan Bose,+919371272694,karan.bose803@hotmail.com,Just exploring options. Not serious yet.,whatsapp,48,9,0.5,low,0,0,0
+CUST0490,Vivek Srivastava,+918478999069,vivek.srivastava793@hotmail.com,Do not contact me again.,whatsapp,110,14,0.05,low,1,0,0
+CUST0491,Arjun Das,+917430693397,arjun.das220@hotmail.com,Not sure if I need this. Just checking.,sms,103,9,0.41,low,0,0,0
+CUST0492,Arjun Das,+918671187564,arjun.das988@gmail.com,Can I see a demo before deciding?,whatsapp,106,3,0.53,medium,0,1,0
+CUST0493,Manish Tiwari,+918592724766,manish.tiwari82@gmail.com,Just looking around. No specific need right now.,sms,120,7,0.29,low,0,0,0
+CUST0494,Sameer Kulkarni,+917246801831,sameer.kulkarni969@yahoo.com,I want to start immediately. What do I need to do?,sms,57,1,0.79,high,0,1,0
+CUST0495,Sameer Kulkarni,+919192786308,sameer.kulkarni529@yahoo.com,We might need this. Let me check with management.,whatsapp,87,1,0.4,medium,0,1,0
+CUST0496,Anjali Pillai,+918715554644,anjali.pillai362@hotmail.com,My friend told me about this. Just curious.,sms,76,4,0.41,low,0,0,0
+CUST0497,Anita Gupta,+919360482466,anita.gupta292@outlook.com,Can you send me a demo? I'm seriously considering this.,sms,105,5,0.84,high,0,1,1
+CUST0498,Rahul Sharma,+918121448210,rahul.sharma180@hotmail.com,Tell me more but I'm not committing to anything.,whatsapp,72,2,0.48,low,0,0,0
+CUST0499,Rajesh Patil,+918106784665,rajesh.patil898@outlook.com,I'm reviewing your offering. Can we talk next week?,sms,49,10,0.63,medium,0,1,1
+CUST0500,Lakshmi Krishnan,+919927426836,lakshmi.krishnan472@gmail.com,I need this for my business. Please contact me ASAP.,sms,15,5,0.9,high,0,1,1
